@@ -7,15 +7,9 @@
 ### Build & Run
 
        git clone https://github.com/ichsanyudika12/realsense2-seg.git
-       
        cd realsense2_seg
-       
-       mkdir build
-       
-       cd build
-       
+       mkdir build && cd build
        cmake ..
-       
        make
        
        ./main
